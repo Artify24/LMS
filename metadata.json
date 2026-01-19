@@ -1,0 +1,9 @@
+
+{
+  "name": "LMS Pro - SaaS Learning Management System",
+  "description": "A comprehensive SaaS LMS platform with dual dashboards for students and teachers, featuring course management, real-time analytics, and live class scheduling.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
