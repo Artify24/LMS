@@ -10,8 +10,22 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                background: "var(--background)",
-                foreground: "var(--foreground)",
+                background: "rgb(var(--background) / <alpha-value>)",
+                foreground: "rgb(var(--foreground) / <alpha-value>)",
+                primary: "rgb(var(--primary) / <alpha-value>)",
+                secondary: "rgb(var(--secondary) / <alpha-value>)",
+                card: "rgb(var(--card) / <alpha-value>)",
+                muted: "rgb(var(--muted) / <alpha-value>)",
+                accent: "rgb(var(--accent) / <alpha-value>)",
+                destructive: "rgb(var(--destructive) / <alpha-value>)",
+                border: "rgb(var(--border) / <alpha-value>)",
+                input: "rgb(var(--input) / <alpha-value>)",
+                ring: "rgb(var(--ring) / <alpha-value>)",
+            },
+            borderRadius: {
+                lg: "var(--radius)",
+                md: "calc(var(--radius) - 2px)",
+                sm: "calc(var(--radius) - 4px)",
             },
         },
     },
