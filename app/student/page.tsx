@@ -19,13 +19,13 @@ export default function StudentDashboard() {
           <h2 className="text-3xl md:text-5xl font-black text-white mb-4 leading-[1.1]">Advanced UI/UX Design Masterclass</h2>
           <div className="flex flex-col sm:flex-row items-center gap-8 mt-10">
             <Link href="/player/1">
-              <Button size="lg" className="bg-white text-indigo-900 hover:bg-white/90 font-black rounded-2xl transition-all">Resume Learning</Button>
+              <Button size="lg" style={{ color: "oklch(35.9% 0.144 278.697)" }} className="bg-white hover:bg-white/90 rounded-2xl transition-all">Resume Learning</Button>
             </Link>
             <div className="flex items-center gap-4">
-               <div className="w-32 h-2 bg-black/20 rounded-full overflow-hidden">
-                  <div className="h-full bg-white w-[68%] rounded-full"></div>
-               </div>
-               <span className="text-sm font-black text-white">68% Complete</span>
+              <div className="w-32 h-2 bg-black/20 rounded-full overflow-hidden">
+                <div className="h-full bg-white w-[68%] rounded-full"></div>
+              </div>
+              <span className="text-sm font-black text-white">68% Complete</span>
             </div>
           </div>
         </div>
@@ -40,33 +40,33 @@ export default function StudentDashboard() {
               { title: 'Data Science Basics', instr: 'Dr. Sarah Chen', prog: 12, tag: 'DATA' },
             ].map((c, i) => (
               <div key={i} className="bg-[#161926] rounded-[2rem] border border-white/5 p-6 group hover:border-white/10 transition-all">
-                 <div className="aspect-video bg-gray-800 rounded-2xl relative overflow-hidden mb-6">
-                    <img src={`https://picsum.photos/400/250?v=s${i}`} className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform" />
-                 </div>
-                 <h4 className="font-bold text-lg text-white mb-1">{c.title}</h4>
-                 <p className="text-xs text-gray-500 mb-8">Instructor: {c.instr}</p>
-                 <div className="h-1.5 bg-white/5 rounded-full overflow-hidden">
-                    <div className="h-full bg-indigo-500" style={{width: `${c.prog}%`}}></div>
-                 </div>
+                <div className="aspect-video bg-gray-800 rounded-2xl relative overflow-hidden mb-6">
+                  <img src={`https://picsum.photos/400/250?v=s${i}`} className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform" />
+                </div>
+                <h4 className="font-bold text-lg text-white mb-1">{c.title}</h4>
+                <p className="text-xs text-gray-500 mb-8">Instructor: {c.instr}</p>
+                <div className="h-1.5 bg-white/5 rounded-full overflow-hidden">
+                  <div className="h-full bg-indigo-500" style={{ width: `${c.prog}%` }}></div>
+                </div>
               </div>
             ))}
           </div>
         </div>
 
         <div className="space-y-10">
-           <div className="bg-[#161926] p-8 rounded-[2.5rem] border border-white/5">
-              <h3 className="text-xl font-bold mb-8">Learning Stats</h3>
-              <div className="space-y-8">
-                 <div className="flex items-center gap-6">
-                    <div className="w-12 h-12 rounded-2xl bg-orange-600/10 flex items-center justify-center text-orange-400 shrink-0"><Target size={24}/></div>
-                    <div><p className="text-2xl font-black text-white">12h 45m</p><p className="text-[10px] text-gray-600 font-black uppercase tracking-widest">Time Spent Today</p></div>
-                 </div>
-                 <div className="flex items-center gap-6">
-                    <div className="w-12 h-12 rounded-2xl bg-emerald-600/10 flex items-center justify-center text-emerald-400 shrink-0"><Zap size={24}/></div>
-                    <div><p className="text-2xl font-black text-white">85%</p><p className="text-[10px] text-gray-600 font-black uppercase tracking-widest">Avg Quiz Score</p></div>
-                 </div>
+          <div className="bg-[#161926] p-8 rounded-[2.5rem] border border-white/5">
+            <h3 className="text-xl font-bold mb-8">Learning Stats</h3>
+            <div className="space-y-8">
+              <div className="flex items-center gap-6">
+                <div className="w-12 h-12 rounded-2xl bg-orange-600/10 flex items-center justify-center text-orange-400 shrink-0"><Target size={24} /></div>
+                <div><p className="text-2xl font-black text-white">12h 45m</p><p className="text-[10px] text-gray-600 font-black uppercase tracking-widest">Time Spent Today</p></div>
               </div>
-           </div>
+              <div className="flex items-center gap-6">
+                <div className="w-12 h-12 rounded-2xl bg-emerald-600/10 flex items-center justify-center text-emerald-400 shrink-0"><Zap size={24} /></div>
+                <div><p className="text-2xl font-black text-white">85%</p><p className="text-[10px] text-gray-600 font-black uppercase tracking-widest">Avg Quiz Score</p></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

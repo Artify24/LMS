@@ -114,7 +114,10 @@ function StudentDashboard() {
                                     href: "/player/1",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         size: "lg",
-                                        className: "bg-white text-indigo-900 hover:bg-white/90 font-black rounded-2xl transition-all",
+                                        style: {
+                                            color: "oklch(35.9% 0.144 278.697)"
+                                        },
+                                        className: "bg-white hover:bg-white/90 rounded-2xl transition-all",
                                         children: "Resume Learning"
                                     }, void 0, false, {
                                         fileName: "[project]/app/student/page.tsx",
@@ -136,12 +139,12 @@ function StudentDashboard() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/student/page.tsx",
                                                 lineNumber: 26,
-                                                columnNumber: 19
+                                                columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/student/page.tsx",
                                             lineNumber: 25,
-                                            columnNumber: 16
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "text-sm font-black text-white",
@@ -149,7 +152,7 @@ function StudentDashboard() {
                                         }, void 0, false, {
                                             fileName: "[project]/app/student/page.tsx",
                                             lineNumber: 28,
-                                            columnNumber: 16
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
@@ -214,12 +217,12 @@ function StudentDashboard() {
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/student/page.tsx",
                                                     lineNumber: 44,
-                                                    columnNumber: 21
+                                                    columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/student/page.tsx",
                                                 lineNumber: 43,
-                                                columnNumber: 18
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                                 className: "font-bold text-lg text-white mb-1",
@@ -227,7 +230,7 @@ function StudentDashboard() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/student/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 18
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-xs text-gray-500 mb-8",
@@ -238,7 +241,7 @@ function StudentDashboard() {
                                             }, void 0, true, {
                                                 fileName: "[project]/app/student/page.tsx",
                                                 lineNumber: 47,
-                                                columnNumber: 18
+                                                columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "h-1.5 bg-white/5 rounded-full overflow-hidden",
@@ -250,12 +253,12 @@ function StudentDashboard() {
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/student/page.tsx",
                                                     lineNumber: 49,
-                                                    columnNumber: 21
+                                                    columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/student/page.tsx",
                                                 lineNumber: 48,
-                                                columnNumber: 18
+                                                columnNumber: 17
                                             }, this)
                                         ]
                                     }, i, true, {
@@ -285,7 +288,7 @@ function StudentDashboard() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/student/page.tsx",
                                     lineNumber: 58,
-                                    columnNumber: 15
+                                    columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "space-y-8",
@@ -300,12 +303,12 @@ function StudentDashboard() {
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/student/page.tsx",
                                                         lineNumber: 61,
-                                                        columnNumber: 135
+                                                        columnNumber: 131
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/student/page.tsx",
                                                     lineNumber: 61,
-                                                    columnNumber: 21
+                                                    columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
@@ -315,7 +318,7 @@ function StudentDashboard() {
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/student/page.tsx",
                                                             lineNumber: 62,
-                                                            columnNumber: 26
+                                                            columnNumber: 22
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "text-[10px] text-gray-600 font-black uppercase tracking-widest",
@@ -323,19 +326,19 @@ function StudentDashboard() {
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/student/page.tsx",
                                                             lineNumber: 62,
-                                                            columnNumber: 83
+                                                            columnNumber: 79
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/student/page.tsx",
                                                     lineNumber: 62,
-                                                    columnNumber: 21
+                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/student/page.tsx",
                                             lineNumber: 60,
-                                            columnNumber: 18
+                                            columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex items-center gap-6",
@@ -347,12 +350,12 @@ function StudentDashboard() {
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/student/page.tsx",
                                                         lineNumber: 65,
-                                                        columnNumber: 137
+                                                        columnNumber: 133
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/student/page.tsx",
                                                     lineNumber: 65,
-                                                    columnNumber: 21
+                                                    columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
@@ -362,7 +365,7 @@ function StudentDashboard() {
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/student/page.tsx",
                                                             lineNumber: 66,
-                                                            columnNumber: 26
+                                                            columnNumber: 22
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "text-[10px] text-gray-600 font-black uppercase tracking-widest",
@@ -370,31 +373,31 @@ function StudentDashboard() {
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/student/page.tsx",
                                                             lineNumber: 66,
-                                                            columnNumber: 79
+                                                            columnNumber: 75
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/student/page.tsx",
                                                     lineNumber: 66,
-                                                    columnNumber: 21
+                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/student/page.tsx",
                                             lineNumber: 64,
-                                            columnNumber: 18
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/student/page.tsx",
                                     lineNumber: 59,
-                                    columnNumber: 15
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/student/page.tsx",
                             lineNumber: 57,
-                            columnNumber: 12
+                            columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/student/page.tsx",

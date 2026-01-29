@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { Mail, Lock, User, BookOpen, GraduationCap, Facebook, ArrowRight } from 'lucide-react';
+import { Mail, Lock, User, BookOpen, GraduationCap, Facebook, ArrowRight, Hash } from 'lucide-react';
 import Button from '@/components/ui/Button';
 
 export default function SignUpPage() {
@@ -51,9 +51,8 @@ export default function SignUpPage() {
               <button
                 type="button"
                 onClick={() => setRole('teacher')}
-                className={`flex flex-col items-center justify-center gap-4 p-6 rounded-[2rem] border transition-all ${
-                  role === 'teacher' ? 'bg-indigo-600/10 border-indigo-600 ring-2 ring-indigo-600/20' : 'bg-white/5 border-white/10 hover:border-white/20'
-                }`}
+                className={`flex flex-col items-center justify-center gap-4 p-6 rounded-[2rem] border transition-all ${role === 'teacher' ? 'bg-indigo-600/10 border-indigo-600 ring-2 ring-indigo-600/20' : 'bg-white/5 border-white/10 hover:border-white/20'
+                  }`}
               >
                 <BookOpen size={24} className={role === 'teacher' ? 'text-indigo-400' : 'text-gray-600'} />
                 <span className="text-[10px] font-black uppercase tracking-widest">Teacher</span>
@@ -61,9 +60,8 @@ export default function SignUpPage() {
               <button
                 type="button"
                 onClick={() => setRole('student')}
-                className={`flex flex-col items-center justify-center gap-4 p-6 rounded-[2rem] border transition-all ${
-                  role === 'student' ? 'bg-indigo-600/10 border-indigo-600 ring-2 ring-indigo-600/20' : 'bg-white/5 border-white/10 hover:border-white/20'
-                }`}
+                className={`flex flex-col items-center justify-center gap-4 p-6 rounded-[2rem] border transition-all ${role === 'student' ? 'bg-indigo-600/10 border-indigo-600 ring-2 ring-indigo-600/20' : 'bg-white/5 border-white/10 hover:border-white/20'
+                  }`}
               >
                 <GraduationCap size={24} className={role === 'student' ? 'text-indigo-400' : 'text-gray-600'} />
                 <span className="text-[10px] font-black uppercase tracking-widest">Student</span>
@@ -79,6 +77,14 @@ export default function SignUpPage() {
                 <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-600" size={18} />
                 <input type="email" placeholder="Email Address" className="w-full bg-black/20 border border-white/10 rounded-2xl py-4 pl-12 text-sm text-white focus:outline-none focus:border-indigo-500" required />
               </div>
+              {
+                role == "student" ? <div>
+                  <div className="relative">
+                    <Hash className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-600" size={18} />
+                    <input type="text" placeholder="Enter Teacher Code" className="w-full bg-black/20 border border-white/10 rounded-2xl py-4 pl-12 text-sm text-white focus:outline-none focus:border-indigo-500" required />
+                  </div>
+                </div> : ""
+              }
               <div className="relative">
                 <Lock className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-600" size={18} />
                 <input type="password" placeholder="Password" className="w-full bg-black/20 border border-white/10 rounded-2xl py-4 pl-12 text-sm text-white focus:outline-none focus:border-indigo-500" required />
